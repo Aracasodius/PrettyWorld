@@ -3,10 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net;
+using System.Net.Sockets;
+using System.Threading;
 
-namespace PrettyWorld_Server_Host_V1.Server_Host
+namespace PrettyNetworking
 {
     class ClientHandler
     {
+        public ClientHandler(Server server, Socket socket, int ID)
+        {
+
+        }
     }
 }
