@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace PrettyNetworking.Utility
 {
-    enum PackageType { WorldData = 101 };
+    enum PackageType { ConnectData = 101};
 }
