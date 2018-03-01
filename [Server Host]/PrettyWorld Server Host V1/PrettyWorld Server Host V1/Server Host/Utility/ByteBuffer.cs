@@ -13,6 +13,8 @@ namespace PrettyNetworking.Utility
         private int _readPostition;
         private bool _bufferUpdate = false;
 
+        public byte[] Buffer = new byte[1024];
+
         public ByteBuffer()
         {
             _writeBuffer = new List<byte>();
