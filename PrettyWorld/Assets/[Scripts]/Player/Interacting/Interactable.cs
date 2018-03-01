@@ -35,6 +35,7 @@ public class Interactable : MonoBehaviour
     public IEnumerator DisplayInfo(bool state, float displayTime)
     {
         canvas.gameObject.SetActive(state);
+
         yield return new WaitForSeconds(displayTime);
         canvas.gameObject.SetActive(!state);
     }
